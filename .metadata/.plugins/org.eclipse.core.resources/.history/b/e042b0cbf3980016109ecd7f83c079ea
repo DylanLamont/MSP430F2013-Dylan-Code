@@ -1,0 +1,18 @@
+#include <msp430.h> 
+
+/*
+ * main.c
+ */
+int main(void) {
+    WDTCTL = WDTPW | WDTHOLD;	// Stop watchdog timer
+	P1DIR = 0x01;
+	P1OUT = 0x01;
+for (;;){
+
+	int a = 50000;
+	while(a>0){
+		a-=1;
+		P1OUT^=0x01;
+	}
+}
+}

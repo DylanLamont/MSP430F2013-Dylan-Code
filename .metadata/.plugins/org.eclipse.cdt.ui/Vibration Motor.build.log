@@ -1,0 +1,7 @@
+
+**** Build of configuration Debug for project Vibration Motor ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k MSP430 
+gmake: *** No rule to make target 'MSP430'.
+
+**** Build Finished ****
