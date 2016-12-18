@@ -13,15 +13,15 @@
 	    volatile unsigned long i;
 
 	    P1OUT = 0x00;                          // Toggle P1.0 using exclusive-OR
-	    //i = 50000;
-	    i = 3000000;                              // Delay
+	    i = 50000;
+	   // i = 3000000;                              // Delay
 	    do (i--);
 	    while (i != 0);
 
 	  volatile unsigned long x;
 	  P1OUT = 0x01;
-	   x = 125000;                              // Delay
-	  //x = 50000;
+	   //x = 125000;                              // Delay
+	  x = 50000;
 	  do (x--);
 	    while (x != 0);
 	  }

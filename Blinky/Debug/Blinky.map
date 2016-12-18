@@ -1,7 +1,7 @@
 ******************************************************************************
                   MSP430 Linker PC v15.12.1                    
 ******************************************************************************
->> Linked Sat Nov 05 16:21:13 2016
+>> Linked Fri Dec 16 18:12:23 2016
 
 OUTPUT FILE NAME:   <Blinky.out>
 ENTRY POINT SYMBOL: "_c_int00_noinit_noargs_noexit"  address: 0000f854
